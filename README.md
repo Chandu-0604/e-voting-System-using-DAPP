@@ -77,16 +77,14 @@ truffle migrate --reset
 ```
 ⚠️ Ensure MetaMask is connected to your Ganache network (default: http://127.0.0.1:7545).
 ---
-```bash
+
 5. Run the Frontend with live-server
 Navigate to the directory where your index.html is located (usually in src or root) and run:
-
-bash
-Copy
-Edit
+```bash
 live-server
-This will automatically open the frontend in your browser at http://127.0.0.1:8080 (default).
 ```
+This will automatically open the frontend in your browser at http://127.0.0.1:8080 (default).
+
 ## 📩 Smart Contract Integration
 
 After deploying your contract, you'll get two important things:
