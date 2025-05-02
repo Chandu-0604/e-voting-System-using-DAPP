@@ -66,3 +66,17 @@ truffle compile
 truffle migrate --reset
 ```
 ⚠️ Ensure MetaMask is connected to your Ganache network (default: http://127.0.0.1:7545).
+
+📊 Live Chart with Chart.js
+Votes are visualized using a real-time bar chart powered by Chart.js. It updates automatically as users vote via Web3.
+🧑‍💻 About Me
+👨‍💻 Chandan B
+```bash
+🔗 LinkedIn
+```
+```bash
+💻 GitHub
+```
+```bash
+📧 Email: chandu.62004@gmail.com
+```
