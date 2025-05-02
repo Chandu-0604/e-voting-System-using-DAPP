@@ -51,3 +51,14 @@ voting-dapp/
 git clone https://github.com/your-username/voting-dapp.git
 cd voting-dapp
 
+2. Install Dependencies
+npm install
+
+3. Start Ganache
+If using Ganache GUI, just open it and start a workspace.
+For CLI users:
+ganache-cli
+4. Compile & Migrate Smart Contracts
+truffle compile
+truffle migrate --reset
+⚠️ Ensure MetaMask is connected to your Ganache network (default: http://127.0.0.1:7545).
