@@ -77,6 +77,24 @@ truffle compile
 truffle migrate --reset
 ```
 ⚠️ Ensure MetaMask is connected to your Ganache network (default: http://127.0.0.1:7545).
+---
+
+## 📩 Smart Contract Integration
+
+After deploying your contract, you'll get two important things:
+
+1. ✅ **Contract Address** – shown after deployment in the terminal (e.g., `0xAbc123...`)
+2. ✅ **Contract ABI** – found in `build/contracts/Voting.json`
+
+### 🔧 Paste into Frontend
+
+Open your frontend JavaScript (usually `index.js` or `app.js`) and update these:
+
+```javascript
+const contractAddress = "PASTE_YOUR_DEPLOYED_ADDRESS_HERE";
+
+const contractABI = [ /* Copy from Voting.json ABI section */ ];
+
 
 📊 Live Chart with Chart.js
 Votes are visualized using a real-time bar chart powered by Chart.js. It updates automatically as users vote via Web3.
