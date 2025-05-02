@@ -119,7 +119,11 @@ Votes are visualized using a real-time bar chart powered by Chart.js. It updates
 ![Voting Success](./screenshots/voting-success.jpeg)
 
 ---
+### ⚠️ Already Voted Alert
 
+![Already Voted](./screenshots/already-voted.jpeg)
+
+> This
 ### 📊 Live Vote Count Chart
 
 ![Vote Chart](./screenshots/chart.jpeg)
