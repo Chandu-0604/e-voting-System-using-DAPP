@@ -2,6 +2,7 @@
 A decentralized voting application built with Solidity, Web3.js, and Chart.js that allows users to vote on-chain with transparent, tamper-proof results.
 
 🚀 Features
+
 ✅ On-chain voting using Ethereum smart contracts
 
 ✅ Voting deadline with countdown timer
@@ -15,9 +16,6 @@ A decentralized voting application built with Solidity, Web3.js, and Chart.js th
 ✅ MetaMask integration for account management
 
 📁 Project Structure
-bash
-Copy
-Edit
 .
 ├── contracts/
 │   └── Voting.sol           # Smart contract
@@ -42,27 +40,21 @@ MetaMask
 🔧 Installation
 Clone the repo
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/voting-dapp.git
 cd voting-dapp
 Install dependencies
 
-bash
-Copy
-Edit
+
 npm install
 Start Ganache
 Open Ganache and copy the RPC server URL and one of the private keys.
 
 Compile and deploy smart contracts
 
-bash
-Copy
-Edit
 truffle compile
 truffle migrate --reset
+
 ✅ Make sure Ganache is running and configured correctly in truffle-config.js.
 
 🧠 Smart Contract Summary
@@ -87,15 +79,11 @@ Configure truffle-config.js with your Infura and MetaMask private key.
 
 Run:
 
-bash
-Copy
-Edit
 truffle migrate --network <your-network>
+
 🙌 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
-📝 License
-This project is licensed under the MIT License.
 
 🔗 Connect with Me
 💼 LinkedIn
