@@ -25,15 +25,25 @@ A decentralized voting application built with **Solidity**, **Web3.js**, and **C
 📂 Project Structure
 
 voting-dapp/
+
 ├── contracts/
+
 │ └── Voting.sol
+
 ├── migrations/
+
 │ └── 2_deploy_contracts.js
+
 ├── src/
+
 │ ├── index.html
+
 │ ├── app.js
+
 │ └── chart.js
+
 ├── truffle-config.js
+
 └── README.md
 
 ⚙️ Prerequisites
