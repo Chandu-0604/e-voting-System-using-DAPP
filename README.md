@@ -3,8 +3,7 @@
 A decentralized voting application built with **Solidity**, **Web3.js**, and **Chart.js**. Users can vote securely on the Ethereum blockchain with real-time result visualization.
 
  🚀 Features
-
-- ⏱️ Voting deadline with countdown timer  
+  
 - 🧑‍⚖️ One vote per account (prevents double voting)  
 - 🔄 Resettable election by owner  
 - 📊 Live vote visualization using Chart.js  
