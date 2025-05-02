@@ -104,6 +104,25 @@ const contractABI = [ /* Copy from Voting.json ABI section */ ];
 
 📊 Live Chart with Chart.js
 Votes are visualized using a real-time bar chart powered by Chart.js. It updates automatically as users vote via Web3.
+---
+
+## 🖼️ Screenshots
+
+### 🏠 Homepage (DApp Landing)
+
+![Homepage](./screenshots/home.jpeg)
+
+---
+
+### ✅ Voting Success Message
+
+![Voting Success](./screenshots/voting-success.jpeg)
+
+---
+
+### 📊 Live Vote Count Chart
+
+![Vote Chart](./screenshots/chart.jpeg)
 
 ## 🧑‍💻 About Me
 
