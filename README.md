@@ -46,9 +46,9 @@ voting-dapp/
 
 └── README.md
 
-⚙️ Prerequisites
+### Prerequisites
 
-- [Node.js](https://nodejs.org/)
+- [Node.js](https://nodejs.org/) (Version: **v18.x.x**)
 - [Truffle](https://trufflesuite.com/)
 - [Ganache](https://trufflesuite.com/ganache/)
 - [MetaMask](https://metamask.io/)
