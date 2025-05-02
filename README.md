@@ -94,7 +94,7 @@ Open your frontend JavaScript (usually `index.js` or `app.js`) and update these:
 const contractAddress = "PASTE_YOUR_DEPLOYED_ADDRESS_HERE";
 
 const contractABI = [ /* Copy from Voting.json ABI section */ ];
-
+```
 
 📊 Live Chart with Chart.js
 Votes are visualized using a real-time bar chart powered by Chart.js. It updates automatically as users vote via Web3.
