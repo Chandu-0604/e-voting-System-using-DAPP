@@ -69,14 +69,12 @@ truffle migrate --reset
 
 📊 Live Chart with Chart.js
 Votes are visualized using a real-time bar chart powered by Chart.js. It updates automatically as users vote via Web3.
-🧑‍💻 About Me
-👨‍💻 Chandan B
-```bash
-🔗 LinkedIn
-```
-```bash
-💻 GitHub
-```
-```bash
-📧 Email: chandu.62004@gmail.com
-```
+
+## 🧑‍💻 About Me
+
+- 👨‍💻 **Chandan B**
+- 🔗 [LinkedIn](https://www.linkedin.com/in/chandan-b-2950a626a)
+- 💻 [GitHub](https://github.com/Chandu-0604)
+- 📧 [Email Me](mailto:chandu.62004@gmail.com)
+
+
