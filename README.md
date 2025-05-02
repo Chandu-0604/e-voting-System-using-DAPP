@@ -23,6 +23,7 @@ A decentralized voting application built with **Solidity**, **Web3.js**, and **C
 - **MetaMask** – Wallet for voting interaction  
 
 📂 Project Structure
+
 voting-dapp/
 ├── contracts/
 │ └── Voting.sol
