@@ -1,93 +1,53 @@
 🗳️ Blockchain Voting DApp
-A decentralized voting application built with Solidity, Web3.js, and Chart.js that allows users to vote on-chain with transparent, tamper-proof results.
 
-🚀 Features
+A decentralized voting application built with **Solidity**, **Web3.js**, and **Chart.js**. Users can vote securely on the Ethereum blockchain with real-time result visualization.
 
-✅ On-chain voting using Ethereum smart contracts
+ 🚀 Features
 
-✅ Voting deadline with countdown timer
+- ⏱️ Voting deadline with countdown timer  
+- 🧑‍⚖️ One vote per account (prevents double voting)  
+- 🔄 Resettable election by owner  
+- 📊 Live vote visualization using Chart.js  
+- 🦊 MetaMask integration  
+- 📋 Dynamic candidate list  
 
-✅ Prevents double voting
 
-✅ Dynamic candidate rendering
 
-✅ Real-time vote results chart (via Chart.js)
+ 🧱 Tech Stack
 
-✅ MetaMask integration for account management
+- **Solidity** – Smart contract language  
+- **Web3.js** – Interact with Ethereum blockchain  
+- **Chart.js** – Frontend chart rendering  
+- **Truffle** – Smart contract development framework  
+- **Ganache** – Local Ethereum blockchain  
+- **MetaMask** – Wallet for voting interaction  
 
-📁 Project Structure
-.
+📂 Project Structure
+voting-dapp/
 ├── contracts/
-│   └── Voting.sol           # Smart contract
+│ └── Voting.sol
 ├── migrations/
-│   └── 2_deploy_contracts.js
+│ └── 2_deploy_contracts.js
 ├── src/
-│   ├── index.html           # Frontend interface
-│   ├── app.js               # Web3 & frontend logic
-│   └── chart.js             # Chart.js setup
-├── test/                    # Optional test scripts
-├── truffle-config.js        # Truffle configuration
+│ ├── index.html
+│ ├── app.js
+│ └── chart.js
+├── truffle-config.js
 └── README.md
+
 ⚙️ Prerequisites
-Node.js
 
-Truffle
-
-Ganache or local Ethereum node
-
-MetaMask
-
-🔧 Installation
-Clone the repo
+- [Node.js](https://nodejs.org/)
+- [Truffle](https://trufflesuite.com/)
+- [Ganache](https://trufflesuite.com/ganache/)
+- [MetaMask](https://metamask.io/)
 
 
+ 🛠️ Installation Steps
+
+ 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/voting-dapp.git
 cd voting-dapp
-Install dependencies
 
-
-npm install
-Start Ganache
-Open Ganache and copy the RPC server URL and one of the private keys.
-
-Compile and deploy smart contracts
-
-truffle compile
-truffle migrate --reset
-
-✅ Make sure Ganache is running and configured correctly in truffle-config.js.
-
-🧠 Smart Contract Summary
-solidity
-Copy
-Edit
-constructor(string[] memory candidates, uint durationSeconds)
-Accepts an array of candidates and voting duration.
-
-Tracks votes and prevents double voting.
-
-Resets voting with new candidates via resetVoting.
-
-🖥️ Running the Frontend
-Open index.html in a browser with MetaMask installed and connected to your local Ganache network.
-
-📊 Chart.js Integration
-Vote counts are visualized using Chart.js in real-time as users cast votes.
-
-📦 Deployment on Testnet (Optional)
-Configure truffle-config.js with your Infura and MetaMask private key.
-
-Run:
-
-truffle migrate --network <your-network>
-
-🙌 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
-
-
-🔗 Connect with Me
-💼 LinkedIn
-
-🧑‍💻 GitHub
-
-📧 Email: chandu.62004@gmail.com
